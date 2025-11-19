@@ -1,0 +1,47 @@
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: darkslategrey;
+    border-bottom: 2px solid darkslategrey;
+    padding-bottom: 25px;
+}
+
+#subtitulo {
+    color: #bc0000;
+    line-height: 1.8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meu-botao {
+    background-color: #1ded02;
+    color: white;
+    padding: 10px 10 px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.meu-botao:hover {
+    background-color: #7ae16d;
+    transform: translateY(-2px);
+}
+
+.container-foto {
+    width: 50%;
+    height: auto;
+}
+
+.container {
+    text-align: right;
+    height: 50px;
+}
